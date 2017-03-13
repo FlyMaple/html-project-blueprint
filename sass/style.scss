@@ -1,0 +1,17 @@
+@import 'compass/css3';
+@import 'rwd';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font: {
+        family: '微軟正黑體';
+    }
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+
+}

@@ -1,0 +1,7 @@
+$iphone5: 320px;
+
+@mixin forIphone5 () {
+    @media all and (max-width: $iphone5) {
+        @content;
+    }
+}
