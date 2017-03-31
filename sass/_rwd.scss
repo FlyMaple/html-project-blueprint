@@ -1,6 +1,55 @@
-$iphone5: 320px;
+$for1920: 1920px;
+$for1280: 1280px;
+$for1024: 1024px;
+$for768: 768px;
+$for450: 450px;
+$for375: 375px;
+$for360: 360px;
+$for320: 320px;
 
-@mixin forIphone5 () {
+@mixin for1920 () {
+    @media all and (max-width: $iphone5) {
+        @content;
+    }
+}
+
+@mixin for1280 () {
+    @media all and (max-width: $iphone5) {
+        @content;
+    }
+}
+
+@mixin for1024 () {
+    @media all and (max-width: $iphone5) {
+        @content;
+    }
+}
+
+@mixin for768 () {
+    @media all and (max-width: $iphone5) {
+        @content;
+    }
+}
+
+@mixin for450 () {
+    @media all and (max-width: $iphone5) {
+        @content;
+    }
+}
+
+@mixin for375 () {
+    @media all and (max-width: $iphone5) {
+        @content;
+    }
+}
+
+@mixin for360 () {
+    @media all and (max-width: $iphone5) {
+        @content;
+    }
+}
+
+@mixin for320 () {
     @media all and (max-width: $iphone5) {
         @content;
     }
